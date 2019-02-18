@@ -1,0 +1,5 @@
+from tkinter import *
+root = Tk()
+hello_label = Label(text='hello')
+hello_label.grid(row=0, column=0)
+mainloop()
